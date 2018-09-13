@@ -2,5 +2,13 @@
     <string name="app_name">Dicee</string>
     <string name="button_text">Roll</string>
     <string name="roll_button_description">Rolls the dice</string>
-    <string name="Image_logo_desciption">Dicee Logo</string>
+    <string name="Image_logo_description">Dicee Logo</string>
+    <string name="left_dice_description" translatable="false">Left die</string>
+    <string name="right_dice_description" translatable="false">Right die</string>
+    <string name="dice_one_description" translatable="false">One</string>
+    <string name="dice_two_description" translatable="false">Two</string>
+    <string name="dice_three_description" translatable="false">Three</string>
+    <string name="dice_four_description" translatable="false">Four</string>
+    <string name="dice_five_description" translatable="false">Five</string>
+    <string name="dice_six_description" translatable="false">Six</string>
 </resources>

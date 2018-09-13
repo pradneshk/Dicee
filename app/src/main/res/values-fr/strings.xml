@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Dicee</string>
-    <string name="Image_logo_desciption">"logo dicee "</string>
+    <string name="Image_logo_description">"logo dicee "</string>
     <string name="roll_button_description">" lance les des "</string>
     <string name="button_text">Lancer les des</string>
 </resources>

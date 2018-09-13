@@ -29,13 +29,27 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.dice6
         };
 
+        final int dice_description_array[] = new int[] {
+                R.string.dice_one_description,
+                R.string.dice_two_description,
+                R.string.dice_three_description,
+                R.string.dice_four_description,
+                R.string.dice_five_description,
+                R.string.dice_six_description
+        };
+
         rollButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Random random = new Random();
-
-                leftDice.setImageResource(dice_array[random.nextInt(6)]);
-                rightDice.setImageResource(dice_array[random.nextInt(6)]);
+                int leftNumber = random.nextInt(6);
+                leftDice.setImageResource(dice_array[leftNumber]);
+                leftDice.setContentDescription(getResources().getString(R.string.left_dice_description)+" "
+                        +getResources().getString(dice_description_array[leftNumber]));
+                int rightNumber = random.nextInt(6);
+                rightDice.setImageResource(dice_array[rightNumber]);
+                rightDice.setContentDescription(getResources().getString(R.string.right_dice_description) + " "
+                        +getResources().getString(dice_description_array[rightNumber]));
             }
         });
 
